@@ -1,21 +1,29 @@
-package com.pratice.leetcode.arrays_and_strings;
+package com.pratice.leetcode.hash_table;
 
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class LeetCode1_TwoSum_3 {
+public class LeetCode1_TwoSum_2 {
     public static int[] twoSum(int[] nums, int target) {
+        int[] ans = new int[2];
         HashMap<Integer, Integer> numsMap = new HashMap<>();
+        int counts = 0;
+        boolean containsSelf = false;
         for (int i = 0; i < nums.length; i++) {
             numsMap.put(nums[i], i);
         }
         for (int i = 0; i < nums.length; i++) {
             int targetDeductNumAtI = target - nums[i];
             if (numsMap.containsKey(targetDeductNumAtI) && numsMap.get(targetDeductNumAtI) != i) {
-                return new int[]{i, numsMap.get(targetDeductNumAtI)};
+                ans[counts++] = i;
+                if (targetDeductNumAtI == nums[i]) {
+                    containsSelf = true;
+                }
+            } else if (numsMap.containsKey(targetDeductNumAtI) && containsSelf) {
+                ans[counts++] = i;
             }
         }
-        return null;
+        return ans;
     }
 
     public static void main(String[] args) {

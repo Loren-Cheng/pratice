@@ -1,4 +1,4 @@
-package com.pratice.leetcode.arrays_and_strings;
+package com.pratice.leetcode.hash_table;
 
 import java.util.*;
 

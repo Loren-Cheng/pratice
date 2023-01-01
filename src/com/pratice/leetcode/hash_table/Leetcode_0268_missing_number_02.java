@@ -1,6 +1,6 @@
 package com.pratice.leetcode.hash_table;
 
-public class LeetCode268MissingNumber_1 {
+public class Leetcode_0268_missing_number_02 {
     public static int missingNumber(int[] nums) {
         int predictSum = 0;
         int missingSum = 0;

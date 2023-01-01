@@ -2,7 +2,7 @@ package com.pratice.leetcode.hash_table;
 
 import java.util.HashSet;
 
-public class LeetCode1426_CountingElements {
+public class Leetcode_1426_counting_elements_01 {
     public static int countElements(int[] arr) {
         HashSet<Integer> set = new HashSet<>();
         int counts = 0;
@@ -10,8 +10,8 @@ public class LeetCode1426_CountingElements {
              ) {
             set.add(e);
         }
-        for (int i = 0; i < arr.length; i++) {
-            if(set.contains(arr[i]+1)){
+        for (int j : arr) {
+            if (set.contains(j + 1)) {
                 counts++;
             }
         }

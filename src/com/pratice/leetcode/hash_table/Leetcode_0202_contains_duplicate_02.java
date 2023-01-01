@@ -3,12 +3,12 @@ package com.pratice.leetcode.hash_table;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LeetCode202_ContainsDuplicate_1 {
+public class Leetcode_0202_contains_duplicate_02 {
 
     public boolean isHappy(int n) {
         Set<Integer> set = new HashSet<>();
         while (true) {
-            int sum = new LeetCode202_ContainsDuplicate_1().calSqrSumOfOfN(n);
+            int sum = new Leetcode_0202_contains_duplicate_02().calSqrSumOfOfN(n);
             if (sum == 1) return true;
             if (set.contains(n)) return false;
             set.add(n);

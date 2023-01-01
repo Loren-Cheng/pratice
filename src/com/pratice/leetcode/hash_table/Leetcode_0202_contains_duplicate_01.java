@@ -3,7 +3,7 @@ package com.pratice.leetcode.hash_table;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LeetCode202_ContainsDuplicate {
+public class Leetcode_0202_contains_duplicate_01 {
 
     public static boolean isHappy(int n) {
         int sqr = 1;

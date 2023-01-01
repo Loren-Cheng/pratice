@@ -2,7 +2,7 @@ package com.pratice.leetcode.hash_table;
 
 import java.util.HashSet;
 
-public class LeetCode2351_FirstLetterToAppearTwice {
+public class Leetcode_2351_first_letter_to_appear_twice_01 {
     public static char repeatedCharacter(String s) {
         HashSet<Character> characterHashSet = new HashSet<>();
 

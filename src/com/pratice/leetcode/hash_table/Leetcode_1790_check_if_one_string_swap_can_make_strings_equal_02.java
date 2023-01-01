@@ -3,7 +3,7 @@ package com.pratice.leetcode.hash_table;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LeetCode1790_CheckIfOneStringSwapCanMakeStringsEqual_1 {
+public class Leetcode_1790_check_if_one_string_swap_can_make_strings_equal_02 {
 
     public boolean areAlmostEqual(String s1, String s2) {
         int notEqualCount = 0;

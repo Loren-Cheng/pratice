@@ -2,7 +2,7 @@ package com.pratice.leetcode.hash_table;
 
 import java.util.Arrays;
 
-public class LeetCode1_TwoSum {
+public class Leetcode_0001_two_sum_01 {
     public static int[] twoSum(int[] nums, int target) {
         int[] ans = new int[2];
         for (int i = 0; i < nums.length; i++) {

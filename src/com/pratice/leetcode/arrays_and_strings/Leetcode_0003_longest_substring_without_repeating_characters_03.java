@@ -2,7 +2,7 @@ package com.pratice.leetcode.arrays_and_strings;
 
 import java.util.*;
 
-public class LeetCode3_LongestSubstringWithoutRepeatingCharacters_2 {
+public class Leetcode_0003_longest_substring_without_repeating_characters_03 {
     public static int lengthOfLongestSubstring(String s) {
         HashMap<Character, Integer> charMap = new HashMap<>();
         int right = 0;

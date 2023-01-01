@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class LeetCode239_SlidingWindowMaximum {
+public class Leetcode_0239_sliding_window_maximum_01 {
     public static int[] maxSlidingWindow(int[] nums, int k) {
         int[] ans = new int[nums.length - k + 1];
         Deque<Integer> win = new LinkedList<>();

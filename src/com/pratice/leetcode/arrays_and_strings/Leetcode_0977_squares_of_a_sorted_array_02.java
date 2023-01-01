@@ -1,6 +1,6 @@
 package com.pratice.leetcode.arrays_and_strings;
 
-public class LeetCode977_SquaresOfASortedArray_1 {
+public class Leetcode_0977_squares_of_a_sorted_array_02 {
     public int[] sortedSquares(int[] nums) {
         int lo = 0;
         int hi = nums.length - 1;

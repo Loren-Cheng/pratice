@@ -1,6 +1,6 @@
 package com.pratice.leetcode.arrays_and_strings;
 
-public class LeetCode1779_FindNearestPointThatHasTheSameXOrYCoordinate_1 {
+public class Leetcode_1779_find_nearest_point_that_has_the_same_x_or_y_coordinate_02 {
     //1779. Find Nearest Point That Has the Same X or Y Coordinate
     public static int nearestValidPoint(int x, int y, int[][] points) {
         int min = Integer.MAX_VALUE;

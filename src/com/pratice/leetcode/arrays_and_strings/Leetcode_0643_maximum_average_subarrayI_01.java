@@ -1,6 +1,6 @@
 package com.pratice.leetcode.arrays_and_strings;
 
-public class LeetCode643_MaximumAverageSubarrayI {
+public class Leetcode_0643_maximum_average_subarrayI_01 {
     public static double findMaxAverage(int[] nums, int k) {
         double avg = 0.0;
         for (int i = 0; i < k; i++) {

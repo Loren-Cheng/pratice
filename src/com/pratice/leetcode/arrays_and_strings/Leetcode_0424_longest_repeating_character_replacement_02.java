@@ -3,7 +3,7 @@ package com.pratice.leetcode.arrays_and_strings;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
-public class LeetCode424_LongestRepeatingCharacterReplacement_1 {
+public class Leetcode_0424_longest_repeating_character_replacement_02 {
 
     public static int characterReplacement(String s, int k) {
         HashSet<Character> dic = new LinkedHashSet<>();

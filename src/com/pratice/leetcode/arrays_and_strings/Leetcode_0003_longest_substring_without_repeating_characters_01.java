@@ -1,21 +1,24 @@
 package com.pratice.leetcode.arrays_and_strings;
 
-import java.util.HashSet;
+import java.util.*;
 
-public class LeetCode3_LongestSubstringWithoutRepeatingCharacters_1 {
+public class Leetcode_0003_longest_substring_without_repeating_characters_01 {
     public static int lengthOfLongestSubstring(String s) {
-        int max=0;
+        Deque<Character> existChar = new LinkedList<>();
+        int right = 0;
+        int left = 0;
+        int max = 0;
         for (int i = 0; i < s.length(); i++) {
-            HashSet<Character> existStringSet = new HashSet<>();
-            for (int j = i; j < s.length(); j++) {
-                if(!existStringSet.contains(s.charAt(j))){
-                    existStringSet.add(s.charAt(j));
-                }else {
-                    break;
+            if (existChar.contains(s.charAt(i))) {
+                while (existChar.contains(s.charAt(i))) {
+                    existChar.pop();
+                    left++;
                 }
             }
-            if (existStringSet.size()>max){
-                max = existStringSet.size();
+            existChar.add(s.charAt(i));
+            right++;
+            if ((right - left) > max) {
+                max = right - left;
             }
         }
         return max;

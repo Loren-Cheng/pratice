@@ -3,7 +3,7 @@ package com.pratice.leetcode.arrays_and_strings;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LeetCode1779_FindNearestPointThatHasTheSameXOrYCoordinate {
+public class Leetcode_1779_find_nearest_point_that_has_the_same_x_or_y_coordinate_01 {
 
     public static int nearestValidPoint(int x, int y, int[][] points) {
         List<int[]> tmp = new ArrayList<>();

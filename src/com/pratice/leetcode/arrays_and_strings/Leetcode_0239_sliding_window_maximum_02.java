@@ -2,7 +2,7 @@ package com.pratice.leetcode.arrays_and_strings;
 
 import java.util.*;
 
-public class LeetCode239_SlidingWindowMaximum_1 {
+public class Leetcode_0239_sliding_window_maximum_02 {
     public static int[] maxSlidingWindow(int[] nums, int k) {
         int[] ans = new int[nums.length - k + 1];
         Deque<Integer> win = new ArrayDeque<>();

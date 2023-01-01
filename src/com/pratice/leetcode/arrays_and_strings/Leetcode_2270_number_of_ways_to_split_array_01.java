@@ -1,6 +1,6 @@
 package com.pratice.leetcode.arrays_and_strings;
 
-public class LeetCode2270_NumberOfWaysToSplitArray {
+public class Leetcode_2270_number_of_ways_to_split_array_01 {
     public static int waysToSplitArray(int[] nums) {
         long[] prefixSum = new long[nums.length];
         int waysCount = 0;

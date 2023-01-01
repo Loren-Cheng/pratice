@@ -1,6 +1,6 @@
 package com.pratice.leetcode.arrays_and_strings;
 
-public class LeetCode977_SquaresOfASortedArray {
+public class Leetcode_0342_reverse_string_01 {
     public int[] sortedSquares(int[] nums) {
         int left = 0;
         int right = nums.length - 1;

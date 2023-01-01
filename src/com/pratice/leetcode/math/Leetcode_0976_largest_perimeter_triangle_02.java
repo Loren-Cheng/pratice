@@ -2,7 +2,7 @@ package com.pratice.leetcode.math;
 
 import java.util.Arrays;
 
-public class LeetCode976_LargestPerimeterTriangle_1 {
+public class Leetcode_0976_largest_perimeter_triangle_02 {
 
     public static int largestPerimeter(int[] nums) {
         Arrays.sort(nums);

@@ -1,6 +1,6 @@
 package com.pratice.leetcode.math;
 
-public class LeetCode1281_SubtractTheProductAndSumOfDigitsOfAnInteger {
+public class Leetcode_1281_subtract_the_product_and_sum_of_digits_of_an_integer_01 {
 
     public int subtractProductAndSum(int n) {
         int prod = 1;

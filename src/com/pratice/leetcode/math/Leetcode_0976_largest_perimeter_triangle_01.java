@@ -1,6 +1,6 @@
 package com.pratice.leetcode.math;
 
-public class LeetCode976_LargestPerimeterTriangle {
+public class Leetcode_0976_largest_perimeter_triangle_01 {
 
     public int largestPerimeter(int[] nums) {
         int max = Integer.MIN_VALUE;

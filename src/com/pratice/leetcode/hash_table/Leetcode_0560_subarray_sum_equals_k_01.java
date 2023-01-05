@@ -3,7 +3,7 @@ package com.pratice.leetcode.hash_table;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Leetcode_0560_subarray_sum_equals_k {
+public class Leetcode_0560_subarray_sum_equals_k_01 {
     public static int subarraySum(int[] nums, int k) {
         int counts = 0;
         int sum = 0;

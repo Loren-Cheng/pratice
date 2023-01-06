@@ -3,7 +3,7 @@ package com.pratice.leetcode.hash_table;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Leetcode_1133_largest_unique_number {
+public class Leetcode_1133_largest_unique_number_01 {
     public static int largestUniqueNumber(int[] nums) {
         int max = -1;
         Map<Integer, Integer> map = new HashMap<>();

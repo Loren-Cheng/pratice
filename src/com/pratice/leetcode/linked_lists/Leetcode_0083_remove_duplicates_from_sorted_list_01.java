@@ -1,0 +1,38 @@
+package com.pratice.leetcode.linked_lists;
+
+public class Leetcode_0083_remove_duplicates_from_sorted_list_01 {
+    public ListNode deleteDuplicates(ListNode head) {
+        if (head == null) return head;
+        ListNode curr = head;
+        while (curr.next != null) {
+            if (curr.val == curr.next.val) {
+                curr.next = curr.next.next;
+            } else {
+                curr = curr.next;
+            }
+        }
+        return head;
+    }
+
+    //Definition for singly-linked list.
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+}
+
+
+
+

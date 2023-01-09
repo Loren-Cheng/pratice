@@ -12,7 +12,7 @@ public class Leetcode_0876_middle_of_the_inked_list_01 {
     }
 
     //Definition for singly-linked list.
-    public class ListNode {
+    class ListNode {
         int val;
         ListNode next;
 

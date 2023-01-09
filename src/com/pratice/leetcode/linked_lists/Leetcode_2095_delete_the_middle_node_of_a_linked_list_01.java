@@ -2,7 +2,7 @@ package com.pratice.leetcode.linked_lists;
 
 public class Leetcode_2095_delete_the_middle_node_of_a_linked_list_01 {
     public ListNode deleteMiddle(ListNode head) {
-        if(head.next == null){
+        if (head.next == null) {
             return null;
         }
         ListNode slow = head;
@@ -16,7 +16,7 @@ public class Leetcode_2095_delete_the_middle_node_of_a_linked_list_01 {
     }
 
     //Definition for singly-linked list.
-    public class ListNode {
+    class ListNode {
         int val;
         ListNode next;
 

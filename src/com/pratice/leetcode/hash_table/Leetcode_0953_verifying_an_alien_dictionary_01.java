@@ -1,7 +1,6 @@
 package com.pratice.leetcode.hash_table;
 
 import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.Map;
 
 public class Leetcode_0953_verifying_an_alien_dictionary_01 {

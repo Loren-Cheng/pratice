@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-public class Leetcode_0020_valid_parentheses {
+public class Leetcode_0020_valid_parentheses_01 {
     public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         Map<Character, Character> matching = new HashMap<>();

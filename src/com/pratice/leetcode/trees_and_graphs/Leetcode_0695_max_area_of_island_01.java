@@ -8,11 +8,14 @@ public class Leetcode_0695_max_area_of_island_01 {
     public int maxAreaOfIsland(int[][] grid) {
         seen = new boolean[grid.length][grid[0].length];
         for (int i = 0; i < grid.length; i++) {
+
             for (int j = 0; j < grid[0].length; j++) {
+
+                if (!seen[i][j] && grid[i][j] == 1) {
+                    maxArea = Math.max(maxArea, dfs(grid, i, j));
+                }
                 if (!seen[i][j] && grid[i][j] == 0) {
                     seen[i][j] = false;
-                } else {
-                    maxArea = Math.max(maxArea, dfs(grid, i, j));
                 }
             }
         }
@@ -21,7 +24,6 @@ public class Leetcode_0695_max_area_of_island_01 {
 
     int dfs(int[][] grid, int x, int y) {
         int thisArea = 0;
-
         for (int[] direction : directions
         ) {
             int tmpX = x + direction[0];
@@ -36,7 +38,6 @@ public class Leetcode_0695_max_area_of_island_01 {
                 }
             }
         }
-
         return thisArea;
     }
 }

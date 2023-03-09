@@ -42,7 +42,6 @@ public class Leetcode_1926_nearest_exit_from_entrance_in_maze_01 {
 
                     if (xX >= 0 && xX < maze[0].length
                             && yY >= 0 && yY < maze.length
-                            //
                             && maze[yY][xX] == '.'
                             && !seen[yY][xX]) {
                          //traverse the empty cell in the maze range and never seen before

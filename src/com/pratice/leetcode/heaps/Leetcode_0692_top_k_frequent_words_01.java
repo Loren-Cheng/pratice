@@ -28,7 +28,7 @@ public class Leetcode_0692_top_k_frequent_words_01 {
         for (int i = 0; i < k; i++) {
             ans.add(heap.poll());
         }
-        Collections.reverse(ans);//O(k log(k))
+        Collections.reverse(ans);//O(k)
         return ans;
     }
 }

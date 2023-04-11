@@ -1,7 +1,5 @@
 package com.pratice.leetcode.trees_and_graphs;
 
-import java.util.*;
-
 public class Leetcode_0101_symmetric_tree_01 {
     public boolean isSymmetric(TreeNode root) {
         return dfs(root.left, root.right);

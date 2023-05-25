@@ -3,7 +3,7 @@ package com.pratice.codeWars.hash;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CountingDuplicates {
+public class Counting_duplicates {
     public static int duplicateCount(String text) {
         // Write your code here
         text = text.toLowerCase();
